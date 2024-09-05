@@ -58,3 +58,15 @@ The Model-View-Contoller (MVC) Architecture
     *Application logic - Bridge between model and views (which dont know about one another)
 -View:
     *Presentation logic(User)
+
+
+Update 1.0: 
+Adding Publisher-subscriber pattern to MVC
+Notes: 
+-Events should be handled in the conroller(otherwise we would have application n the view)
+-Events should be listenened for in the view(otherwise we would need DOM elements in the controller)
+*Code that wants to react: Subscriber(Module-Controller.js)
+*Code that knows when to react: Publisher(Class Recipeview)
+- We can subscribe to publisher by passing in the subscriber function as argument- controlRecipes will be passed into add handlerRender when program starts,
+-addhandler listens for events and uses controlrecipes as callback
+As soon as the publisher-publishes an event the subscriber will get  called.
