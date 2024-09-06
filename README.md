@@ -70,3 +70,6 @@ Notes:
 - We can subscribe to publisher by passing in the subscriber function as argument- controlRecipes will be passed into add handlerRender when program starts,
 -addhandler listens for events and uses controlrecipes as callback
 As soon as the publisher-publishes an event the subscriber will get  called.
+
+Update 1.01:
+Adding error catching. Success and Error messaging for the app
