@@ -73,3 +73,6 @@ As soon as the publisher-publishes an event the subscriber will get  called.
 
 Update 1.01:
 Adding error catching. Success and Error messaging for the app
+
+Update 1.02:
+Adding search, search results rendering, pagination, button functionality.
