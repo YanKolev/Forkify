@@ -76,3 +76,6 @@ Adding error catching. Success and Error messaging for the app
 
 Update 1.02:
 Adding search, search results rendering, pagination, button functionality.
+
+Update 1.03: 
+Implementing recipe serving calculation, DOM updating algorithm and bookmark functionality.
