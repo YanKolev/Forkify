@@ -79,3 +79,6 @@ Adding search, search results rendering, pagination, button functionality.
 
 Update 1.03: 
 Implementing recipe serving calculation, DOM updating algorithm and bookmark functionality.
+
+Update 1.04:
+Adding custom recipe input, ability to push data to the API and save it. First additions of JSDOC.
