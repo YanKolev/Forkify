@@ -82,3 +82,6 @@ Implementing recipe serving calculation, DOM updating algorithm and bookmark fun
 
 Update 1.04:
 Adding custom recipe input, ability to push data to the API and save it. First additions of JSDOC.
+
+Update 1.05: 
+Cleaning up functions and debugging. 
